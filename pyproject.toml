@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "xontrib-dracula"
+name = "xontrib-gruvbox"
 version = "0.1.0"
-description = "A Dracula theme for xonsh."
-authors = ["Angus Hollands <goosey15@gmail.com>"]
+description = "A Gruvbox theme for xonsh."
+authors = ["Ryan Delaney <ryan.patrick.delaney@protonmail.com>"]
 license = "MIT"
 packages = [
   { include = "xontrib" }
