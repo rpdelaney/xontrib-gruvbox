@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
 """
-    Dracula Theme v1.2.5
+Gruvbox Theme, by Pavel Pertsev & others
 
-    https://github.com/zenorocha/dracula-theme
+https://github.com/morhetz/gruvbox
 
-    Copyright 2016, All rights reserved
-
-    Code licensed under the MIT license
-    http://zenorocha.mit-license.org
-
-    :author Rob G <wowmotty@gmail.com>
-    :author Chris Bracco <chris@cbracco.me>
-    :author Zeno Rocha <hi@zenorocha.com>
+Code licensed under the MIT license
+http://zenorocha.mit-license.org
 """
 
 from pygments.style import Style
@@ -109,7 +102,7 @@ PG_STYLE = {
     Whitespace: "#f8f8f2",
 }
 
-register_custom_pygments_style("dracula", PG_STYLE, background_color=BG_COLOR)
+register_custom_pygments_style("gruvbox", PG_STYLE, background_color=BG_COLOR)
 
 ANSI_STYLE = {
     "BLACK": "#000000",
@@ -129,4 +122,4 @@ ANSI_STYLE = {
     "YELLOW": "#f1fa8c",
 }
 
-register_custom_ansi_style("dracula", ANSI_STYLE)
+register_custom_ansi_style("gruvbox", ANSI_STYLE)
