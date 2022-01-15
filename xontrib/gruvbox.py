@@ -9,25 +9,45 @@ http://zenorocha.mit-license.org
 
 from pygments.style import Style
 from pygments.token import (
-    Keyword,
-    Name,
     Comment,
-    String,
     Error,
+    Escape,
+    Generic,
+    Keyword,
     Literal,
+    Name,
     Number,
     Operator,
     Other,
     Punctuation,
+    String,
     Text,
-    Generic,
+    Token,
     Whitespace,
 )
 from xonsh.pyghooks import register_custom_pygments_style
 from xonsh.ansi_colors import register_custom_ansi_style
 
 
-BG_COLOR = "#282a36"
+ANSI_STYLE = {
+    "BLACK": "#282828",
+    "BLUE": "#458588",
+    "CYAN": "#689d6a",
+    "GREEN": "#98971a",
+    "PURPLE": "#b16286",
+    "RED": "#cc241d",
+    "WHITE": "#ebdbb2",
+    "YELLOW": "#d79921",
+    "INTENSE_BLUE": "#83a598",
+    "INTENSE_CYAN": "#8ec07c",
+    "INTENSE_GREEN": "#b8bb26",
+    "INTENSE_PURPLE": "#d3869b",
+    "INTENSE_RED": "#fb4934",
+    "INTENSE_WHITE": "#fbf1c7",
+    "INTENSE_YELLOW": "#fabd2f",
+}
+
+BG_COLOR = "#282828"
 
 PG_STYLE = {
     Comment: "#6272a4",
