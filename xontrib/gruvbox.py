@@ -34,6 +34,7 @@ ANSI_STYLE = {
     "BLUE": "#458588",
     "CYAN": "#689d6a",
     "GREEN": "#98971a",
+    "ORANGE": "#d65d0e",
     "PURPLE": "#b16286",
     "RED": "#cc241d",
     "WHITE": "#ebdbb2",
@@ -41,6 +42,7 @@ ANSI_STYLE = {
     "INTENSE_BLUE": "#83a598",
     "INTENSE_CYAN": "#8ec07c",
     "INTENSE_GREEN": "#b8bb26",
+    "INTENSE_ORANGE": "#fe8019",
     "INTENSE_PURPLE": "#d3869b",
     "INTENSE_RED": "#fb4934",
     "INTENSE_WHITE": "#fbf1c7",
@@ -123,23 +125,5 @@ PG_STYLE = {
 }
 
 register_custom_pygments_style("gruvbox", PG_STYLE, background_color=BG_COLOR)
-
-ANSI_STYLE = {
-    "BLACK": "#000000",
-    "BLUE": "#bd93f9",
-    "CYAN": "#8be9fd",
-    "GREEN": "#50fa7b",
-    "INTENSE_BLUE": "#caa9fa",
-    "INTENSE_CYAN": "#9aedfe",
-    "INTENSE_GREEN": "#5af78e",
-    "INTENSE_PURPLE": "#ff92d0",
-    "INTENSE_RED": "#ff6e67",
-    "INTENSE_WHITE": "#e6e6e6",
-    "INTENSE_YELLOW": "#f4f99d",
-    "PURPLE": "#ff79c6",
-    "RED": "#ff5555",
-    "WHITE": "#bfbfbf",
-    "YELLOW": "#f1fa8c",
-}
 
 register_custom_ansi_style("gruvbox", ANSI_STYLE)
