@@ -82,7 +82,7 @@ PG_STYLE = {
     Literal.Date: ANSI_STYLE["INTENSE_WHITE"],
     Name: ANSI_STYLE["INTENSE_BLUE"],
     Name.Attribute: ANSI_STYLE["INTENSE_CYAN"],
-    Name.Builtin: ANSI_STYLE["INTENSE_ORANGE"],
+    Name.Builtin: ANSI_STYLE["WHITE"],
     Name.Builtin.Pseudo: ANSI_STYLE["INTENSE_ORANGE"],
     Name.Class: ANSI_STYLE["INTENSE_ORANGE"],
     Name.Constant: ANSI_STYLE["PURPLE"],
