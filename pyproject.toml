@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "xontrib-gruvbox"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Gruvbox theme for xonsh."
 authors = ["Ryan Delaney <ryan.patrick.delaney@protonmail.com>"]
 readme = "README.rst"
