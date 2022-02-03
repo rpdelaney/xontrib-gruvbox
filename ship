@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+#
+# builds and uploads a distribution to pypi
+#
+
+set -u
+
+if poetry build ; then
+    poetry publish -u "$TWINE_USERNAME" -p "$TWINE_PASSWORD" -r "${1:-pypi_test}"
+fi
